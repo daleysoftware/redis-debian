@@ -1,14 +1,14 @@
-redis-debian
+Redis-Debian
 ============
 
 Tools to build a lightweight debian package for customized redis builds.
 
-usage
+Usage
 =====
 
-./build-redis-debian.sh <name> <version> <desc> <repo>
+    ./build-redis-debian.sh <name> <version> <desc> <repo>
 
-where
+Where
 
 * redis-repository-directory: the directory where your redis repo is located.
 * name: the control name for the debian.
