@@ -10,9 +10,9 @@ Usage
 
 Where
 
-* redis-repository-directory: the directory where your redis repo is located.
-* name: the control name for the debian.
-* debian: the version of the debian.
-* description: appended to the standard redis description.
+* name = the control name for the debian.
+* debian = the version of the debian.
+* desc = text that will be appended to the control description.
+* repo = the directory where your redis repo is located.
 
 Enjoy!
