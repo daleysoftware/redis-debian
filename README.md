@@ -3,6 +3,8 @@ Redis-Debian
 
 Tools to build a lightweight debian package for customized redis builds.
 
+The custom debian produced by the scripts in this repo is very lightweight and features very reliable upstart-based service management. The redis-server service will be started on installation of this package.
+
 Usage
 =====
 
