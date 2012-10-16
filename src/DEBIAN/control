@@ -1,0 +1,7 @@
+Architecture: all
+Maintainer: Matt Pillar <mpillar@uwaterloo.ca>
+Depends: libc6 (>= 2.7), adduser
+Section: database
+Priority: optional
+Homepage: http://github.com/mpillar/redis-debian/
+Description: Persistent key-value database with network interface.
