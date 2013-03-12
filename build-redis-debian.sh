@@ -76,7 +76,10 @@ do
     cp "$repo"/src/redis-$e src/usr/bin
 done
 
-echo "  $desc" >> src/DEBIAN/control
+if [ ! -z "$desc" ]
+then
+    echo "  $desc" >> src/DEBIAN/control
+fi
 echo "Package: $name" >> src/DEBIAN/control
 echo "Version: $version" >> src/DEBIAN/control
 
