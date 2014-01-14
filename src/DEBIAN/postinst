@@ -1,7 +1,3 @@
 #!/bin/bash
-
 mkdir -p /data/redis
 mkdir -p /var/log/redis
-
-service redis-server stop || true
-service redis-server start || true
