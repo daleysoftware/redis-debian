@@ -16,5 +16,3 @@ Where
 * debian = the version of the debian.
 * desc = text that will be appended to the control description.
 * repo = the directory where your redis repo is located.
-
-Enjoy!
